@@ -1,0 +1,112 @@
+.my-nav{
+    
+    position: fixed;   
+    top: 0; 
+    box-shadow: 5px 5px 10px rgba(68, 67, 67, 0.795);
+    z-index: 999;
+}
+
+h1, h2{
+    text-shadow: 5px 5px 5px rgba(68, 67, 67, 0.795);
+}
+
+
+.pokeball{
+    width: 10rem;
+    height: 5rem;
+    background: linear-gradient(90deg, rgba(255,0,0,0.5) 0%, rgba(200,0,0,0.75) 49%, rgba(190,0,0,1) 100%);
+    box-shadow: 5px 5px 10px rgba(68, 67, 67, 0.795);
+    border-radius: 5rem 5rem 0 0;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: end;
+    z-index: 9;
+
+    
+    
+
+
+}
+.pokeball2{
+    width: 10rem;
+    height: 5rem;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.05) 49%, rgba(0,0,0,0.15) 100%);
+    box-shadow: 5px 5px 10px rgba(68, 67, 67, 0.795);
+    border-radius: 0rem 0rem 5rem 5rem; 
+    border: 2px solid black;
+    justify-content: center;
+    
+    z-index: 9;   
+
+}
+/* semicerchio alto bianco della interno della pokeball */
+.WUHC {
+    width: 2rem;
+    height: 1rem;
+    background-color: white;
+    border-radius: 1rem 1rem 0 0;
+    border: 2px solid black;
+    border-bottom: 3px solid white;
+    z-index: 10;
+ 
+}
+/* semicerchio basso bianco della interno della pokeball */
+.WDHC {
+    width: 2rem;
+    height: 1rem;
+    background-color: white;
+    border-radius: 0rem 0rem 1rem 1rem; 
+    border: 2px solid black;
+    border-top: 3px solid white;
+    z-index: 10;
+ 
+}
+/* 100% width */
+.my-width{
+    width: 100%;
+   
+}
+/* loader */
+.loader{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: 9999;
+}
+/* backround rosso */
+.my-red-bg{
+    background: linear-gradient(90deg, rgba(255,0,0,0.5) 0%, rgba(200,0,0,0.75) 49%, rgba(190,0,0,1) 100%);
+}
+/* backround rosso */
+.my-white-bg{
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.05) 49%, rgba(0,0,0,0.15) 100%);
+
+}
+
+
+
+/* aniomazione bounce all'hover */
+.hoverBounce:hover{animation: bounce 1s linear;}
+
+@keyframes bounce{
+    20%, 50%, 80%, to{
+        transform: translateY(0);
+    }
+    40%{transform: translateY(-30px)}
+    70%{transform: translateY(-15px)}
+    90%{transform: translateY(-4px)}
+    
+}
+
+
+/* animazione infinta bounce per il loader */
+.everBounce{ animation: bounce 1s linear;
+    animation-iteration-count: infinite;
+    
+}
+
+
