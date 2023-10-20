@@ -60,7 +60,7 @@ function fetchPokemon(){
                                 
                             </div>
                             <ul class="list-group list-group-flush">
-                                <h5>Tipo</h5>
+                                <h5>Type</h5>
                                 ${liCreator(mon.types)}
                                
                             </ul>
@@ -147,7 +147,7 @@ function fetchDatas(target, dNoneTarget){
                                 
                             </div>
                             <ul class="list-group list-group-flush">
-                                <h5>Tipo</h5>
+                                <h5>Type</h5>
                                 ${liCreator(mon.types)}
                                
                             </ul>
